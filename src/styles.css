@@ -1,0 +1,30 @@
+body {
+  background: black;
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display,
+.form__label {
+  color: white;
+}
+
+.form__input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.5rem;
+}
+
+.form__input {
+  padding: 0.5em;
+  font-size: 1.5rem;
+}
